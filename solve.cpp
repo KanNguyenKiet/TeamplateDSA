@@ -42,12 +42,12 @@ const int di[4] = {-1, 0, 1, 0};
 const int dj[4] = {0, 1, 0, -1};
 const char dr[4] = {'U', 'R', 'D', 'L'};     
 
-void feature_001() {
-    // Add new feature_001
-}
-
 void feature_002() {
     // Add new feature_002
+}
+
+void feature_003() {
+    // Add new feature_003
 }
 
 void query() {
