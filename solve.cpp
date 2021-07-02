@@ -41,20 +41,6 @@ const int di[4] = {-1, 0, 1, 0};
 const int dj[4] = {0, 1, 0, -1};
 const char dr[4] = {'U', 'R', 'D', 'L'};     
 
-long long Inverse(long long a,long long MOD) {
-   long long m = a, n = MOD;
-   long long xm = 1, xn = 0;
-   while (n != 0)
-   {
-       long long q = m / n;
-       long long r = m - q * n;
-       long long xr = xm - q * xn;
-       m = n; xm = xn;
-       n = r; xn = xr;
-   }
-   return (xm % MOD + MOD) % MOD;
-}
-
 void query() {
     long long a, b, c, d, e, f, g;
     cin >> a >> b >> c >> d >> e >> f >> g;
