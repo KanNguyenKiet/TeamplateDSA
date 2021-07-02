@@ -41,6 +41,10 @@ const int di[4] = {-1, 0, 1, 0};
 const int dj[4] = {0, 1, 0, -1};
 const char dr[4] = {'U', 'R', 'D', 'L'};     
 
+void feature_001() {
+    // Add new feature_001
+}
+
 void query() {
     long long a, b, c, d, e, f, g;
     cin >> a >> b >> c >> d >> e >> f >> g;
