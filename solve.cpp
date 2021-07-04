@@ -50,6 +50,10 @@ void feature_003() {
     // Add new feature_003
 }
 
+void feature_004() {
+    // Add new feature_004
+}
+
 void query() {
     long long a, b, c, d, e, f, g;
     cin >> a >> b >> c >> d >> e >> f >> g;
